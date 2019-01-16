@@ -1,21 +1,18 @@
 %%%% Alcance
 \chapter{Alcance}
 %% FALTA TERM¡NAR 
-Con este trabajo busca desarrollar una herramienta sencilla, modular y escalable que le permita al investigador poder adquirir de una manera más rápida y efectiva  que además de esto pueda seguir adquiriendo y analizando dichos datos sin estar presente en el laboratorio. Para cumplir con esto se establece elas funciones básicas del sistema con las siguientessto se en sta   
+Con este trabajo se busca desarrollar una herramienta sencilla, modular y escalable que le permita al usuario poder adquirir de una manera más rápida y efectiva los datos necesarios para su investigación, y que además de esto pueda seguir adquiriendo y analizando dichos datos sin estar presente en el laboratorio. Para cumplir con esto se establece las funciones básicas del sistema con las siguientes:   
 
 \begin{description}
 
-\item[Velocidad de transmisión de datos:] Debido a que la trasmisión de los datos se hace por medio de IOT, se debe verificar que la trasmisión de los datos sea confiable; es decir que la conexión del módulo WIFI sea estable para que el monitoreo y almacenamiento se realice adecuadamente.
+\item[Construcción del switch:] Teniendo como una de las primeras necesidades, la precisión en cuanto a intervalos de tiempo de entrada y salida de operación de las cargas para la toma de datos, se hace necesario la construcción de un switch que permita ser controlado y programado de forma tal que logre sincronizarse con la fuente de generación chroma 61511 y las tarjetas de adquicisión de datos NI 9225, NI 9227, NI 9239 y NI cDAQ-9172 a través de una plataforma.
 
-\item[Funcionamiento de la aplicación móvil y plataforma \textit{online}:]Debido a que el monitoreo se hará por medio de una aplicación móvil y/o plataforma \textit{online}, se debe garantizar el correcto funcionamiento en todo momento. En la amplicación movil se realizara unicamente la visualización de los datos obtenidos por el prototipo. 
+\item[Desarrollo de la plataforma de control:] como se mencionó antes, la sincronización de los diferentes subsistemas que operan en la adquisición de los datos es de vital importancia. Para esto se desarrollará una plataforma (sotfware) que permita controlar de forma fácil y sencilla los elementos antes mencionados, dicha plataforma tendrá las facultades de poder operar remotamente cumpliendo con uno de los objetivos antes mencionados.      
 
-\item[Almacenamiento de datos:]Los datos enviados de las variables medidas por el prototipo, se guardan para luego ser visualizados, por esto se debe garantizar que estos queden archivados de forma adecuada y no se presenten pérdidas de información; además de que la capacidad de almacenamiento del microprocesador y plataforma online sean suficientes para cubrir los datos obtenidos.
+\item[Diseño y construcción de un sistema de protección]: Ya que los elementos que se trabajan en el laboratorio operan con tensiones y corrientes considerables y algunos de ellos son sensibles a sobre-tensiones y picos de corriente, además, en vista de que el sistema en conjunto pueda operar sin la presencia del usuario, se necesita un sistema de protección eléctrico que pueda funcionar de manera autónoma y reaccionar adecuadamente frente a los posibles fallos que se presenten protegiendo los elementos de laboratorio antes mencionados.  
+
+ 
+ 
+  
+  
 \end{description} 
-
-Adicional a estos, se debe tener en cuenta la alimentación de los elementos en el montaje, Ya que el prototipo se va ubicar en campo (espacio al aire libre), como recomendación, se debe tener en cuenta la alimentacion para el funcionamiento de todo el sistema. Por este motivo se debe usar un microprocesador de bajo consumo. 
-
- 
- 
- 
-  
-  
